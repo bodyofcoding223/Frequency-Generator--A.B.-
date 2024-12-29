@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequency Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Frequency Generator with Wave Selection</h1>
+
+    <label for="frequency">Set Frequency (Hz):</label>
+    <input type="number" id="frequency" min="1" max="1000000" value="1000">
+    <br>
+    <button class="wave-button active" data-wave="normal">Normal</button>
+    <button class="wave-button" data-wave="square">Square</button>
+    <button class="wave-button" data-wave="sawtooth">Sawtooth</button>
+    <button class="wave-button" data-wave="triangle">Triangle</button>
+    <br>
+    <button id="start">Start Sound</button>
+    <button id="stop" disabled>Stop Sound</button>
+
+    <p><i><b><u>English</u></b></i></p>
+    <p>Here you can create frequencies from (1 Hz to 1,000,000 Hz) and listen to them in different styles.</p>
+    <p><u>Instructions:</u> Too high frequency can be harmful to you which will make you feel discomfort so use this frequency carefully.</p>
+    <p><u>Note:</u> This frequency may not go above 20,000Hz on different devices.</p>
+    <br>
+
+    <p><i><b><u>Bangla(বাংলা)</u></b></i></p>
+    <p>আপনি এখানে (১ Hz থেকে ১,০০০,০০০ Hz) পর্যন্ত ফ্রিকোয়েন্সি তৈরি করতে পারবেন এবং বিভিন্ন স্টাইলে তা শুনতে পারবেন।</p>
+    <p><u>নির্দেশনা :</u> বেশি উচ্চগতি ফ্রিকোয়েন্সি আপনার জন্য ক্ষতিকারক হতে পারে যা আপনাকে অস্বস্তি অনুভব করাবে তাই সাবধানে এই ফ্রিকোয়েন্সি ব্যবহার করুন।</p>
+    <p><u>বিদ্র :</u> বিভিন্ন ডিভাইসে এই ফ্রিকোয়েন্সি ২০,০০০Hz এর উপরে সোনা নাও যেতে পারে।</p>
+
+    <footer>
+        &copy; Frequency Generator. All rights reserved.
+        <br><b><i>*Created by Arka Barua.*</i></b>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

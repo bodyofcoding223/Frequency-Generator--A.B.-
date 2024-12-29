@@ -1,0 +1,61 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4;
+}
+
+/* Input and buttons styling */
+input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#stop {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#stop:disabled {
+    background-color: #ccc;
+}
+
+/* Wave button styles */
+.wave-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.wave-button.active {
+    background-color: #005f73;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 20px auto;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #777;
+}
